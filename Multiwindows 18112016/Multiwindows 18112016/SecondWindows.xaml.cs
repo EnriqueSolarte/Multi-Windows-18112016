@@ -22,6 +22,12 @@ namespace Multiwindows_18112016
         public SecondWindows()
         {
             InitializeComponent();
+            this.labelTime.Content = DateTime.Now.ToString("hh:mm:ss tt");
+        }
+
+        private void clickGiveTime(object sender, RoutedEventArgs e)
+        {
+            this.labelTime.Content = DateTime.Now.ToString();
         }
     }
 }
