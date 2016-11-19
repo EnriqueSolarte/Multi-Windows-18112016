@@ -1,0 +1,14 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+	mc:Ignorable="d"
+	x:Class="DependentWindows.MainMenu"
+	d:DesignWidth="800" d:DesignHeight="600">
+
+    <Grid x:Name="mainMenuLayoutRoot" Background="White">
+        <Label x:Name="label" Content="MAIN MENU" HorizontalAlignment="Left" Margin="268,49,0,0" VerticalAlignment="Top" Height="63" Width="233" FontSize="36"/>
+        <Button x:Name="buttonW1" Content="GamePlay" HorizontalAlignment="Left" Margin="100,231,0,0" VerticalAlignment="Top" Width="234" FontSize="36" Height="68" Click="clickBTN"/>
+    </Grid>
+</UserControl>
