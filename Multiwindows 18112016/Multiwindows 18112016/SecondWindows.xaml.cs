@@ -19,7 +19,7 @@ namespace Multiwindows_18112016
     /// </summary>
     public partial class SecondWindows : Window
     {
-        public SecondWindows()
+        public SecondWindows(int x, string y)
         {
             InitializeComponent();
             this.labelTime.Content = DateTime.Now.ToString("hh:mm:ss tt");

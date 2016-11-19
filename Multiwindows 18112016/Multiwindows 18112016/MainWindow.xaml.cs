@@ -27,7 +27,7 @@ namespace Multiwindows_18112016
 
         private void click(object sender, RoutedEventArgs e)
         {
-            SecondWindows win2 = new SecondWindows();
+            SecondWindows win2 = new SecondWindows(25,"kike");
             win2.Owner = this;
             win2.Show();
         }
